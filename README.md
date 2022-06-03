@@ -1,1 +1,1 @@
-# interpretable_models_seminar
+# Interpretable Models: Discovering EBM
