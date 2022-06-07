@@ -6,5 +6,6 @@ pandas
 scikit-learn
 scipy
 seaborn
-statsmodels
+statsmodels==0.13.2
 interpret
+kaleido
