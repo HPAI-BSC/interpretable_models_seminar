@@ -2,13 +2,13 @@
 
 This repo contains support material for the seminar I will be doing for the group. 
 
-How to run the code: 
+How to run the code in windows powershell: 
 
 ```bash
 # Build image
 docker build -t image . 
 # Run jupyter notebook in image
-docker run --rm -p 8888:8888 -v //$(PWD):/ image jupyter-notebook --allow-root --ip="0.0.0.0"
+docker run --rm -p 8888:8888 -v ${PWD}:/home image jupyter-notebook --allow-root --ip="0.0.0.0"
 
 # Kill jupyter notebook
 docker ps
